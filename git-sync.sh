@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/deck/.local/share/com.nesbox.tic/TIC-80/tic80-carts/
+
 notifVAR='Adding files ('`date`')'
 notify-send "$notifVAR" -a "Git Sync"
 
