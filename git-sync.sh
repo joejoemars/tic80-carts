@@ -2,11 +2,15 @@
 
 cd /home/deck/.local/share/com.nesbox.tic/TIC-80/tic80-carts/
 
+notifVAR='Pulling files ('`date`')'
+notify-send "$notifVAR" -a "Git Sync"
+
+git pull
+
 notifVAR='Adding files ('`date`')'
 notify-send "$notifVAR" -a "Git Sync"
 
 git add .
-git reset -- main/git-sync.sh
 
 notifVAR='Committing files ('`date`')'
 notify-send "$notifVAR" -a "Git Sync"
