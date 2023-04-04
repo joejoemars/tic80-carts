@@ -1,1 +1,2 @@
 *.tic linguist-language=lua
+*.js.tic linguist-language=javascript
