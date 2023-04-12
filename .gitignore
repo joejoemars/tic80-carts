@@ -1,0 +1,2 @@
+# Prevent testing files from being uploaded #
+*.tmp.*
