@@ -34,7 +34,7 @@ function insertCircle()
 	table.insert(a,{})
 	a[#a].x = math.random(0,240)
 	a[#a].y = math.random(0,136)
-	a[#a].r = math.random(1,15)
+	a[#a].r = 1
 	
 end
 -- <WAVES>
