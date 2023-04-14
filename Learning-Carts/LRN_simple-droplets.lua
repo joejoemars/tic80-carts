@@ -8,10 +8,11 @@
 
 a = {}
 
-a[1] = {}
-a[1].x = math.random(0,240)
-a[1].y = math.random(0,136)
-a[1].r = 1
+function BOOT()
+	
+	insertCircle()
+	
+end
 
 function TIC()
 	
@@ -19,7 +20,7 @@ function TIC()
 	
 	a[#a].r = a[#a].r + 1
 	
-	if a[#a].r == 20 then insertCircle() end
+	if a[#a].r == 25 then insertCircle() end
 	
 	for i=1, #a do
 		
