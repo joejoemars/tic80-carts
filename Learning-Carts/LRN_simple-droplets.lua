@@ -11,7 +11,7 @@ a = {}
 a[1] = {}
 a[1].x = math.random(0,240)
 a[1].y = math.random(0,136)
-a[1].r = math.random(1,15)
+a[1].r = 1
 
 function TIC()
 	
