@@ -2,7 +2,7 @@
 -- author:  joejoemars1
 -- desc:    short description
 -- site:    joejoemars1.github.io
--- license: NOT SET, OPEN ISSUE?
+-- license: BY-NC-SA 4.0
 -- version: 0.1
 -- script:  lua
 
