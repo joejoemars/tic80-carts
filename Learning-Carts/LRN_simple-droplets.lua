@@ -37,17 +37,6 @@ function insertCircle()
 	a[#a].r = math.random(1,15)
 	
 end
--- <TILES>
--- 236:eccccccccc888888caaaaaaaca888888cacccccccacc0ccccacc0ccccacc0ccc
--- 237:ccccceee8888cceeaaaa0cee888a0ceeccca0ccc0cca0c0c0cca0c0c0cca0c0c
--- 238:eccccccccc888888caaaaaaaca888888cacccccccacccccccacc0ccccacc0ccc
--- 239:ccccceee8888cceeaaaa0cee888a0ceeccca0cccccca0c0c0cca0c0c0cca0c0c
--- 252:cacccccccaaaaaaacaaacaaacaaaaccccaaaaaaac8888888cc000cccecccccec
--- 253:ccca00ccaaaa0ccecaaa0ceeaaaa0ceeaaaa0cee8888ccee000cceeecccceeee
--- 254:cacccccccaaaaaaacaaacaaacaaaaccccaaaaaaac8888888cc000cccecccccec
--- 255:ccca00ccaaaa0ccecaaa0ceeaaaa0ceeaaaa0cee8888ccee000cceeecccceeee
--- </TILES>
-
 -- <WAVES>
 -- 000:00000000ffffffff00000000ffffffff
 -- 001:0123456789abcdeffedcba9876543210
